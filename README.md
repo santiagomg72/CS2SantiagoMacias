@@ -9,9 +9,10 @@
 
 ## Cómo ejecutar
 1. Crear DB: `CREATE DATABASE castillo_infinito;`
-2. Configurar `src/main/resources/application.properties` con credenciales MySQL.
-3. (Opcional) Colocar `schema.sql` y `data.sql` en `src/main/resources`.
-4. Compilar y ejecutar:
+2. local host: http://localhost:8080
+3. Configurar `src/main/resources/application.properties` con credenciales MySQL.
+4. (Opcional) Colocar `schema.sql` y `data.sql` en `src/main/resources`.
+5. Compilar y ejecutar:
    - `mvn clean package`
    - `mvn spring-boot:run`
 
